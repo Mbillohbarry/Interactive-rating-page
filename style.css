@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 70vh;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    background: hsl(216, 12%, 8%);
+}
+.container {
+    margin: auto;
+    border-radius: 20px;
+    align-items: center;
+    background: hsl(213, 19%, 18%);
+   color: white;
+   padding: 5rem;
+}
+.container img {
+   padding: 10px;
+   border-radius: 50%;
+   /* margin: 10px 0 10px 0; */
+    background:  hsl(0, 0%, 50%);
+}
+.thank-you-img {
+    margin-top: 0;
+    border-radius: 0 !important;
+    padding: 0!important;
+    background: none !important;
+    display: none;
+    margin-left: 30px;
+}
+.heading {
+    font-weight:400;
+    margin: 10px 0 20px 0;
+}
+p {
+    font-size: 15px;
+}
+.btn-section {
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+.rating-button {
+    padding: 10px;
+    margin: 10px 5px 10px 5px;
+    background: hsl(0, 0%, 50%);
+    border: 0 solid hsl(0, 0%, 50%);
+    border-radius: 15px;
+}
+.rating-button:hover {
+    background: whitesmoke;
+    cursor: pointer;
+}
+#submit {
+    width: 100%;
+    background:  hsl(25, 97%, 53%);
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+#submit:hover {
+    background-color: whitesmoke;
+}
+.selected {
+    background-color:  hsl(25, 97%, 53%);
+}
+#displayRating {
+    color:   hsl(25, 97%, 53%);
+    text-align: center;
+    background: hsl(214, 21%, 27%);
+    border-radius: 20px;
+    padding: 10px;
+    display: none;
+    margin: 20px;
+}
+h3,p {
+    text-align: center;
+    padding: 10px;
+}
+.message {
+    text-align: center;
+    font-size: 1.3rem;
+}
+.para {
+    text-align: center;
+}
